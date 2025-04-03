@@ -4,7 +4,8 @@ Site pessoal com projetos, curriculo e links relevantes. Estilizado com inpiraç
 
 Feito com framework React.
 
-![image](https://github.com/user-attachments/assets/3faa4d0a-5a31-4cf0-8438-050cc064fab6)
+![image](https://github.com/user-attachments/assets/752aa97d-eaff-4c38-9a7c-7b7656615793)
+
 
 ## Instalação
 
