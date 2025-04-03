@@ -13,6 +13,8 @@ const SistemaBancarioNewbankPdf = lazy(() => import('../Paginas/PaginasProjetos/
 const SistemaBancarioTestesUnitarios = lazy(() => import('../Paginas/PaginasProjetos/SistemaBancarioTestesUnitarios'));
 const TccSitePesquisasEnadePoscomp = lazy(() => import('../Paginas/PaginasProjetos/TccSitePesquisasEnadePoscomp'));
 const Felipednl_github_io = lazy(() => import('../Paginas/PaginasProjetos/Felipednl_github_io'));
+const AngularCRUDapp = lazy(() => import('../Paginas/PaginasProjetos/AngularCRUDapp'));
+const WebStyleVue = lazy(() => import('../Paginas/PaginasProjetos/WebStyleVue'));
 
 function Projetos({ projetoSelecionado }) {
 
@@ -30,6 +32,8 @@ function Projetos({ projetoSelecionado }) {
     'sistema-bancario-newbank-pdf': <SistemaBancarioNewbankPdf />,
     'sistema-bancario-testes-unitarios': <SistemaBancarioTestesUnitarios />,
     'tcc-site-pesquisas-enade-poscomp': <TccSitePesquisasEnadePoscomp />,
+    'angular-crud-app': <AngularCRUDapp />,
+    'web-style-vue': <WebStyleVue />,
   }
 
   return (

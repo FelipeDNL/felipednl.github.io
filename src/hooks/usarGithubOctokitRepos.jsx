@@ -1,4 +1,4 @@
-import React, { useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import { Octokit } from '@octokit/rest'
 
 function usarGithubOctokitRepos(username, token) {
@@ -17,11 +17,16 @@ function usarGithubOctokitRepos(username, token) {
           username: username,
           per_page: 100 // Número máximo de repositórios por página
         });
-    
+
         let repos = response.data;
-        
-        repos = repos.filter(repo => repo.name !== 'felipednl' && repo.name !== 'treina-code-git');
-        
+
+        repos = repos.filter(repo =>
+          repo.name !== 'felipednl'
+          && repo.name !== 'treina-code-git'
+          && repo.name !== 'pcsx2'
+          && repo.name !== 'representacao-kMeans'
+        );
+
         setRepos(repos);
       } catch (error) {
         setError(error);

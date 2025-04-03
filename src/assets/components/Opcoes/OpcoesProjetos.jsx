@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import './OpcoesProjetos.css'
 
 import usarNavegacaoTeclado from '../../../hooks/usarNavegacaoTeclado';
-import usarGithubOctoKitRepos from '../../../hooks/usarGithubOctoKitRepos';
+import usarGithubOctoKitRepos from '../../../hooks/usarGithubOctokitRepos';
 
 function OpcoesProjetos({ setProjetoSelecionado }) {
     const navigate = useNavigate();
