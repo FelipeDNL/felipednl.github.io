@@ -3,7 +3,7 @@ import React from 'react'
 function Sobre() {
   return (
     <div className='sobre'>
-      Meu Nome é Felipe, sou formado em Ciência da Computação e me considero um desenvolvedor fullstack, apesar de ter uma caída a mais por design.
+      Meu Nome é Felipe, sou formado em Ciência da Computação e sou um desenvolvedor full stack, apesar de ter uma caída a mais por front-end.
 
       <p>Desde criança sempre tive a curiosidade de descobrir como as coisas funcionavam, seja um carrinho de brinquedo remoto ou como papel era feito (obrigado, Kika do '
         <a href='https://www.youtube.com/watch?v=bU1KzsSToQU&list=PLnq_ewBXCOcgLsCpKLQbQkgaoKcjfIrpG&index=10' target='_blank' className='underline'>De Onde Vem</a>'),
