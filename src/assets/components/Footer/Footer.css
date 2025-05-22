@@ -1,0 +1,24 @@
+.footer-container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 2%;
+}
+
+@media (min-width: 1px) and (max-width: 727px) {
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 728px) and (max-width: 1024px) {
+    .footer-container{
+        font-size: medium;
+        padding-right: 40px;
+    }
+    
+}
