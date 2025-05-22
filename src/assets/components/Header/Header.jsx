@@ -10,7 +10,7 @@ function Header() {
       </h1>
       <div className='opcoes-header'>
         <a 
-          href='/Felipe_Davi_CV.pdf' 
+          href='/Felipe_D_CV.pdf' 
           target="_blank" 
           className='op-header'
         >
