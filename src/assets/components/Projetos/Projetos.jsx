@@ -15,6 +15,8 @@ const TccSitePesquisasEnadePoscomp = lazy(() => import('../Paginas/PaginasProjet
 const Felipednl_github_io = lazy(() => import('../Paginas/PaginasProjetos/Felipednl_github_io'));
 const AngularCRUDapp = lazy(() => import('../Paginas/PaginasProjetos/AngularCRUDapp'));
 const WebStyleVue = lazy(() => import('../Paginas/PaginasProjetos/WebStyleVue'));
+const Fjobs = lazy(() => import('../Paginas/PaginasProjetos/fjobs'));
+const TesteTecnicoUeek = lazy(() => import('../Paginas/PaginasProjetos/TesteTecnicoUeek'));
 
 function Projetos({ projetoSelecionado }) {
 
@@ -34,6 +36,8 @@ function Projetos({ projetoSelecionado }) {
     'tcc-site-pesquisas-enade-poscomp': <TccSitePesquisasEnadePoscomp />,
     'angular-crud-app': <AngularCRUDapp />,
     'web-style-vue': <WebStyleVue />,
+    'f-jobs': <Fjobs />,
+    'tecnico-lp-ueek': <TesteTecnicoUeek />
   }
 
   return (
