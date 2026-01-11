@@ -26,7 +26,7 @@ function OpcoesProjetos({ setProjetoSelecionado }) {
 
     usarNavegacaoTeclado(repos.length + 1, usarTeclado, numSelecionado, setNumSelecionado);
 
-    if (loading) return <div>Loading...</div>;
+    if (loading) return <div>⠀Loading...</div>;
     if (error) return <div>Error: {error.message}</div>;
 
     return (

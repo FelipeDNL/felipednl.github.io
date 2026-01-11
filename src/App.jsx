@@ -5,7 +5,6 @@ import './App.css'
 import Header from './assets/components/Header/Header.jsx'
 import QuadroMostrar from './assets/components/Quadros/QuadroMostrar.jsx'
 import QuadroOpcoes from './assets/components/Quadros/QuadroOpcoes.jsx'
-import Footer from './assets/components/Footer/Footer.jsx'
 
 function App() {
   const [opcaoSelecionada, setOpcaoSelecionada] = useState('');

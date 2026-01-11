@@ -1,6 +1,6 @@
-import React, { Suspense, lazy } from 'react'
+import { Suspense, lazy } from 'react'
 
-const Readme= lazy(() => import('../Paginas/PaginasProjetos/ReadmeProjetos'));
+const Readme = lazy(() => import('../Paginas/PaginasProjetos/ReadmeProjetos'));
 const SitePessoal = lazy(() => import('../Paginas/PaginasProjetos/SitePessoal'));
 const AlgoritmosAestrela = lazy(() => import('../Paginas/PaginasProjetos/AlgoritmosAestrela'));
 const ChatCriptografado = lazy(() => import('../Paginas/PaginasProjetos/ChatCriptografado'));

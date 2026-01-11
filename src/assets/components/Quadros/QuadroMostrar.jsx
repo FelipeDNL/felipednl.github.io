@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import './QuadroMostrar.css'
 
 import BemVindo from '../Paginas/BemVindo/BemVindo.jsx'
