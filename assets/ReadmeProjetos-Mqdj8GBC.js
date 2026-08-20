@@ -1,1 +1,0 @@
-import{j as e}from"./main-DsbWUNRL.js";function r(){return e.jsxs("div",{children:[e.jsx("div",{style:{textAlign:"center"},children:e.jsx("h1",{children:"---PROJETOS---"})}),e.jsx("p",{children:"Estou usando um hook Octokit para fazer requisições à API do GitHub e listar meus repositórios publícos."})]})}export{r as default};
