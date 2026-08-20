@@ -17,6 +17,9 @@ const AngularCRUDapp = lazy(() => import('../Paginas/PaginasProjetos/AngularCRUD
 const WebStyleVue = lazy(() => import('../Paginas/PaginasProjetos/WebStyleVue'));
 const Fjobs = lazy(() => import('../Paginas/PaginasProjetos/fjobs'));
 const TesteTecnicoUeek = lazy(() => import('../Paginas/PaginasProjetos/TesteTecnicoUeek'));
+const CProgrammingLanguage = lazy(() => import('../Paginas/PaginasProjetos/CProgrammingLanguage'));
+const FlutterMoodify = lazy(() => import('../Paginas/PaginasProjetos/FlutterMoodify'));
+const Rumo = lazy(() => import('../Paginas/PaginasProjetos/Rumo'));
 
 function Projetos({ projetoSelecionado }) {
 
@@ -25,11 +28,14 @@ function Projetos({ projetoSelecionado }) {
     'site-pessoal-v1': <SitePessoal />,
     'algoritmo-buscas-aprofundamento-iterativo-Aestrela': <AlgoritmosAestrela />,
     'chat-multicast-criptografado': <ChatCriptografado />,
+    'c-programming-language': <CProgrammingLanguage />,
     'felipednl.github.io': <Felipednl_github_io />,
+    'flutter-moodify': <FlutterMoodify />,
     'gerenciador-restaurante-node-express-mysql': <RestauranteNodeExpressMysql />,
     'gerenciador-restaurante-react': <RestauranteReact />,
     'gerenciamento-emprestimos-livros-mysql': <EmprestimosLivrosMysql />,
     'listagem-livros-react-native-firebase': <LivrosReactNativeFirebase />,
+    'rumo': <Rumo />,
     'representacao-kMeans': <RepresentacaoKMeans />,
     'sistema-bancario-newbank-pdf': <SistemaBancarioNewbankPdf />,
     'sistema-bancario-testes-unitarios': <SistemaBancarioTestesUnitarios />,
